@@ -1,16 +1,25 @@
-* {
+/* * {
     background-color: black;
-}
+} */
 
 header {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    font-size: 100px;
+    font-size: 80px;
     color: #fff;
 }
 
 p {
     text-align: center;
     color: #4F952F;
-    font-size: 50px;
+    font-size: 40px;
+}
+
+#location {
+    margin: auto;
+    
+}
+
+.container {
+    text-align: center;
 }
