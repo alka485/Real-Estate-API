@@ -1,0 +1,16 @@
+* {
+    background-color: black;
+}
+
+header {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 100px;
+    color: #fff;
+}
+
+p {
+    text-align: center;
+    color: #4F952F;
+    font-size: 50px;
+}
