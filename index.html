@@ -15,9 +15,8 @@
     <header>Real Estate App </header>
     <p>Discover latest properties for sale anywhere in USA</p>
     <input class="input is-normal" type="text" placeholder="Enter location for properties eg: NewYork" id="location">
-
-
-      <div class="dropdown">
+    <div class="dropdown">
+        <p>Sort By</p>
         <div class="dropdown-trigger">
           <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
             <span>relevance</span>
@@ -29,33 +28,69 @@
         <div class="dropdown-menu" id="dropdown-menu3" role="menu">
           <div class="dropdown-content">
             <a href="#" class="dropdown-item">
-              ALka
+              newest
             </a>
             <a href="#" class="dropdown-item">
-              Modifiers
+              price_high
             </a>
             <a href="#" class="dropdown-item">
-              Grid
+              price_low
             </a>
             <a href="#" class="dropdown-item">
-              Form
+              price_reduced_date
             </a>
             <a href="#" class="dropdown-item">
-              Elements
+              sqft_high
             </a>
             <a href="#" class="dropdown-item">
-              Components
+              open_house_date
             </a>
             <a href="#" class="dropdown-item">
-              Layout
-            </a>
-            <hr class="dropdown-divider">
-            <a href="#" class="dropdown-item">
-              More
+              photos
             </a>
           </div>
         </div>
       </div>
+
+      <div class="dropdown">
+        <p>Minimum Bed</p>
+        <div class="dropdown-trigger">
+          <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
+            <span>relevance</span>
+            <span class="icon is-small">
+              <i class="fas fa-angle-down" aria-hidden="true"></i>
+            </span>
+          </button>
+        </div>
+        <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+          <div class="dropdown-content">
+            <a href="#" class="dropdown-item">
+              newest
+            </a>
+            <a href="#" class="dropdown-item">
+              price_high
+            </a>
+            <a href="#" class="dropdown-item">
+              price_low
+            </a>
+            <a href="#" class="dropdown-item">
+              price_reduced_date
+            </a>
+            <a href="#" class="dropdown-item">
+              sqft_high
+            </a>
+            <a href="#" class="dropdown-item">
+              open_house_date
+            </a>
+            <a href="#" class="dropdown-item">
+              photos
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <button class="button">Search</button>
     
 </body>
+<script src="./js/script.js"></script>
 </html>
