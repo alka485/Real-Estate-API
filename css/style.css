@@ -1,6 +1,8 @@
-/* * {
+* {
     background-color: black;
-} */
+    box-sizing: border-box;
+    
+}
 
 header {
     font-family: 'Montserrat', sans-serif;
@@ -15,11 +17,20 @@ p {
     font-size: 40px;
 }
 
-#location {
+#location{
+    width: 60%;
     margin: auto;
+    display: block;
+    border-color: #4F952F;
+
+}
+
+/* .container{
+    display: flex;
+} */
+
+h6 {
+    color: #fff;
     
 }
 
-.container {
-    text-align: center;
-}
